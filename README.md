@@ -1,3 +1,4 @@
 <h>MY TODO_APP:<h>
-todo-crud-project.netlify.app
+Deployed URL:
+https://todo-crud-project.netlify.app/
 
