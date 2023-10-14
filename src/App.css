@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #3a6bcc;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -49,7 +49,7 @@
 }
 #TextInput{
   width: 20%;
-  background-color: lightgreen;
+  background-color: rgb(157, 206, 240);
   border: none;
   border-radius:5px;
 }
@@ -59,7 +59,7 @@
   padding-left: 20px;
   border-radius: 10px;
   color: whitesmoke;
-  background-color: green;
+  background-color: rgb(104, 119, 204);
   border: none;
 }
 #status{
@@ -67,7 +67,7 @@
 }
 #text{
   font-weight: 700;
-  color: red;
+  color: rgb(253, 188, 8);
 }
 .section{
   display: flex;
@@ -77,9 +77,11 @@
 }
 
 #card-name{
-  background-color: lightgreen;
+  background-color: rgb(22, 243, 225);
   box-shadow: 15px 15px 10px hsl(120, 2%, 8%) ;
   
 }
-
+#todo-btn{
+  background-color: blue !important;
+}
 

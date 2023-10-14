@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import TodoList from "./TodoList";
+import "../App.css"
 
 function Todos() {
   const [name, setName] = useState("");
@@ -65,7 +66,7 @@ function Todos() {
           onChange={(e) => setDescription(e.target.value)}
         />
 
-        <button className="btn btn-success " onClick={handleAddTodo}>
+        <button className="btn btn-success todo-btn" onClick={handleAddTodo}>
           {" "}
           Add Todo
         </button>
